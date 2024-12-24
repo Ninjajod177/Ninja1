@@ -28,7 +28,7 @@ client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['zoya']
 users_collection = db.users
 
-bot = telebot.TeleBot('7441887717:AAEUkNSEBjxJrGoEDQ9u9P5xQI8a6agTVz4')
+bot = telebot.TeleBot("7441887717:AAEUkNSEBjxJrGoEDQ9u9P5xQI8a6agTVz4")
 REQUEST_INTERVAL = 1
 
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]  # Blocked ports list
